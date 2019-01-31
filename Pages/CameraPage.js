@@ -39,7 +39,6 @@ export default class CameraPage extends React.Component {
   }; 
 
   imageUpload = (imgUri, picName) => {
-    //let urlAPI = "http://185.60.170.14/plesk-site-preview/ruppinmobile.ac.il/site01/uploadpicture";
     let urlAPI = "http://proj.ruppin.ac.il/igroup96/test1/uploadpicture";
     let dataI = new FormData();
     dataI.append('picture', {
